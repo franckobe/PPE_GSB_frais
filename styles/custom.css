@@ -1,0 +1,89 @@
+body{
+    /*background-color: rgba(119, 170, 221, 0.63);*/
+    background: linear-gradient(rgba(119, 170, 221, 0.63), rgba(167, 217, 255, 0.63)) no-repeat;
+    background: -webkit-linear-gradient(rgba(119, 170, 221, 0.63), rgba(167, 217, 255, 0.63)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(119, 170, 221, 0.63), rgba(167, 217, 255, 0.63)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(119, 170, 221, 0.63), rgba(167, 217, 255, 0.63)); /* For Firefox 3.6 to 15 */
+    min-height: 100vh;
+}
+h1,h2,h3,h4,h5{
+    font-weight: bold;
+}
+ul{
+    list-style: none;
+    padding: 0; margin: 0;
+}
+.bold{
+    font-weight: bold;
+}
+.padding-lat{
+    padding: 0 15px;
+}
+.padding-top{
+    padding-top: 15px;
+}
+.margin-lat{
+    margin: 0 20px;
+}
+.text-lg{
+    font-size: 20px;
+}
+
+#global{
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+#entete{
+    background-color: rgba(240, 240, 240, 1);
+    padding: 15px;
+    margin: -20px 0;
+    border-radius: 10px 10px 0 0 ;
+}
+#entete img{
+    height: 120px;
+    width: auto;
+}
+#entete h1{
+    margin: 0;
+    padding: 5px 0;
+    color: #123E6A;
+}
+#entete ul{
+    margin: 0; padding: 0;
+}
+.navbar-inverse{
+
+    background-color: rgba(46, 109, 164, 0.49);
+    color: #fff;
+    padding: 5px 10px;
+}
+.navbar-inverse h4, .navbar-inverse li{
+    line-height: 50px;
+    margin: 0;
+}
+.navbar-inverse h3 span{
+    font-style: italic;
+    font-size: 16px;
+}
+.navbar-inverse h3 i{
+    font-size: 20px;
+}
+.navbar-inverse a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar-inverse a:not(.btn-danger):hover{
+   color: #123E6A;
+}
+.btn-default{
+    background-color: rgba(219, 219, 219, 0.62);
+}
+
+
+
+#contenu{
+    min-height: 400px;
+    padding: 20px;
+    margin-bottom: 50px;
+}

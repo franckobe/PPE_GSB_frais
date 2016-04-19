@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>f7c5828e-d12d-47b3-a635-541fd6f7344f</OriginalElement>
+  <nodes>
+    <node x="91.0" y="685.0">f7c5828e-d12d-47b3-a635-541fd6f7344f.TABLE:gsb_frais.lignefraisforfait</node>
+    <node x="206.0" y="3.0">f7c5828e-d12d-47b3-a635-541fd6f7344f.TABLE:gsb_frais.typeutilisateur</node>
+    <node x="316.0" y="457.0">f7c5828e-d12d-47b3-a635-541fd6f7344f.TABLE:gsb_frais.fraisforfait</node>
+    <node x="-63.0" y="422.0">f7c5828e-d12d-47b3-a635-541fd6f7344f.TABLE:gsb_frais.fichefrais</node>
+    <node x="143.0" y="124.0">f7c5828e-d12d-47b3-a635-541fd6f7344f.TABLE:gsb_frais.utilisateur</node>
+    <node x="2.0" y="181.0">f7c5828e-d12d-47b3-a635-541fd6f7344f.TABLE:gsb_frais.etat</node>
+    <node x="-206.5" y="641.0">f7c5828e-d12d-47b3-a635-541fd6f7344f.TABLE:gsb_frais.lignefraishorsforfait</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="f7c5828e-d12d-47b3-a635-541fd6f7344f.TABLE:gsb_frais.lignefraisforfait" target="f7c5828e-d12d-47b3-a635-541fd6f7344f.TABLE:gsb_frais.fraisforfait">
+      <point x="51.5" y="-59.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="f7c5828e-d12d-47b3-a635-541fd6f7344f.TABLE:gsb_frais.utilisateur" target="f7c5828e-d12d-47b3-a635-541fd6f7344f.TABLE:gsb_frais.typeutilisateur">
+      <point x="0.0" y="-125.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="f7c5828e-d12d-47b3-a635-541fd6f7344f.TABLE:gsb_frais.lignefraisforfait" target="f7c5828e-d12d-47b3-a635-541fd6f7344f.TABLE:gsb_frais.fichefrais">
+      <point x="-51.5" y="-59.0" />
+      <point x="144.5" y="653.0" />
+      <point x="133.5" y="629.0" />
+      <point x="61.5" y="81.0" />
+    </edge>
+    <edge source="f7c5828e-d12d-47b3-a635-541fd6f7344f.TABLE:gsb_frais.lignefraishorsforfait" target="f7c5828e-d12d-47b3-a635-541fd6f7344f.TABLE:gsb_frais.fichefrais">
+      <point x="0.0" y="-81.0" />
+      <point x="-61.5" y="81.0" />
+    </edge>
+    <edge source="f7c5828e-d12d-47b3-a635-541fd6f7344f.TABLE:gsb_frais.fichefrais" target="f7c5828e-d12d-47b3-a635-541fd6f7344f.TABLE:gsb_frais.etat">
+      <point x="-61.5" y="-81.0" />
+      <point x="60.5" y="402.0" />
+      <point x="61.5" y="399.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="f7c5828e-d12d-47b3-a635-541fd6f7344f.TABLE:gsb_frais.fichefrais" target="f7c5828e-d12d-47b3-a635-541fd6f7344f.TABLE:gsb_frais.utilisateur">
+      <point x="61.5" y="-81.0" />
+      <point x="234.5" y="399.0" />
+      <point x="284.5" y="399.0" />
+      <point x="0.0" y="125.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9" x="198.8888888888889" y="439.5555555555556" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+
